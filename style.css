@@ -82,6 +82,12 @@ span {
     background-color: #aa96da;
     color: #f7f7f9;
     border: 2px #f7f7f9 dotted;
+    top: -25px;
+    left: -35px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    z-index: 999;
 }
 
 .project-link:active {
