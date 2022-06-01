@@ -29,7 +29,7 @@ span {
     background-color: #aa96da;
     border-radius: 10px;
     color: #f7f7f9;
-    padding: 15px 20px;
+    padding: 20px 25px;
     cursor: pointer;
 }
 
@@ -76,18 +76,17 @@ span {
     font-family: inherit;
     width: 150px;
     height: 200px;
+    transition: 1s;
 }
 
 .project-link:hover {
     background-color: #aa96da;
+    margin: 20px;
     color: #f7f7f9;
-    border: 2px #f7f7f9 dotted;
-    top: -25px;
-    left: -35px;
-    width: 200px;
-    height: 200px;
+    border: 5px #f7f7f9 dotted;
     display: block;
     z-index: 999;
+    transform: scale(1.3);
 }
 
 .project-link:active {
