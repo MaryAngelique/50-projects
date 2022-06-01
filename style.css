@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #ddc6b6;
+    background-color: #ffe8f5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,21 +24,72 @@ span {
 
 .btn {
     font-family: inherit;
+    font-weight: 600;
     border: 0;
-    background-color: #f7f7f9;
-    color: #013dc4;
+    background-color: #aa96da;
+    border-radius: 10px;
+    color: #f7f7f9;
     padding: 15px 20px;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #013dc4;
-    color: #f7f7f9;
-    border: 2px #f7f7f9 dashed;
+    background-color: #f7f7f9;
+    color: #aa96da;
+    border-radius: 10px;
+    border: 2px #aa96da dotted;
 }
 
 .btn:focus {
     outline: 0;
 }
 
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
 
+.screen.up {
+    margin-top: -100vh; /* move the next screen up*/
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin: 10px;
+}
+
+.project-link {
+    background-color: transparent;
+    border: 2px #aa96da solid;
+    cursor: pointer;
+    font-family: inherit;
+    width: 150px;
+    height: 200px;
+}
+
+.project-link:hover {
+    background-color: #be81fb;
+    color: #f7f7f9;
+    border: 2px #f7f7f9 dotted;
+}
+
+.project-link:active {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.project-link img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
