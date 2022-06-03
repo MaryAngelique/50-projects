@@ -7,12 +7,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #ffe8f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
-    /* overflow: hidden; */
+    height: 100vh;
+    overflow: hidden;
     margin: 0;
 }
 
@@ -54,7 +50,7 @@ span {
 }
 
 .screen.up {
-    margin-top: -100vh; /* move the next screen up*/
+    margin-top: -100vh;
 }
 
 .project-list {
