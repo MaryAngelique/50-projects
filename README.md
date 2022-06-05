@@ -4,3 +4,8 @@
 ###### [Expanding Cards Website](https://expanding-cards-alpha.vercel.app/)
 
 ***
+
+#### Project 2: Progress Steps
+###### [Progress Steps](https://progress-steps-neon.vercel.app/)
+
+***
