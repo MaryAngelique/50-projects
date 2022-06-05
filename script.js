@@ -1,8 +1,6 @@
 const screens = document.querySelectorAll(".screen");
 const project_links = document.querySelectorAll(".project-link");
-const start_btn = document.getElementById("start-btn");
 
-start_btn.addEventListener("click", () => screens[0].classList.add("up"));
 
 project_links.forEach(btn => {
 
