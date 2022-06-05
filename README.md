@@ -9,3 +9,8 @@
 ###### [Progress Steps](https://progress-steps-neon.vercel.app/)
 
 ***
+
+#### Project 2: Rotating Navigation
+###### [Rotating Navigation](https://rotating-navigation-three.vercel.app/)
+
+***
